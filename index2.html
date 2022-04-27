@@ -32,19 +32,15 @@
   </div>
 </nav>
 
-<form action="/action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Doe"><br><br>
-  <label for="clss name">class name:</label><br>
-  <input type="text" id="lname" name="lname" value="IT"><br><br>
-  <label for="Student Number">Student Number:</label><br>
-  <input type="number" id="lname" name="lname" value="1"><br><br>
-  <input type="submit" value="Submit">
-</form> 
+<form name="myform" method="post" action="mailto:username@hotmail.com" onsubmit="return validateform()" >  
+First Name: <input type="text" name="name"><br/> 
+Last Name:<input type="text" name="lname"><br/>
+Class Name:<input type="text" name="cname"><br/>
+Password: <input type="number" name="number"><br/>  
+<input type="submit" value="register">  
+</form>  
 
-
+<script src='myscript2.js'></script>
 
 <section class="content">
   <p><img src="12345.jpg" height="450px" width="750px "/>
